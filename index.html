@@ -1,10 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Boya Zeka</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #6a5cff, #00c2ff);
+      color: white;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    .hero {
+      margin-top: 40px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: #00c853;
+      color: white;
+    }
+
+    .primary:hover {
+      background: #00b44a;
+    }
+
+    .secondary {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.4);
+    }
+
+    .secondary:hover {
+      background: rgba(255,255,255,0.35);
+    }
+
+    .screenshots {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .screenshots img {
+      width: 100%;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Boya Zeka</h1>
-  <p>Official website</p>
+
+  <div class="container">
+
+    <h1>🎨 Boya Zeka</h1>
+    <p>Eğlenceli, eğitici ve zeka geliştirici mobil oyun</p>
+
+    <div class="buttons">
+      <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.baneezgames.boyazeka" target="_blank">
+        📲 Google Play'den İndir
+      </a>
+
+      <a class="btn secondary" href="app-ads.txt" target="_blank">
+        app-ads.txt
+      </a>
+
+      <a class="btn secondary" href="https://boyazeka.github.io/boya-zeka-privacy/" target="_blank">
+        Gizlilik Politikası
+      </a>
+    </div>
+
+    <div class="hero">
+      <p>
+        Boya Zeka; çocuklar için eğlenceli öğrenme deneyimi sunar.  
+        Boyama, dikkat, hafıza ve zeka oyunlarını bir araya getirir.
+      </p>
+    </div>
+
+    <div class="screenshots">
+      <img src="https://via.placeholder.com/300x600?text=Ekran+1">
+      <img src="https://via.placeholder.com/300x600?text=Ekran+2">
+      <img src="https://via.placeholder.com/300x600?text=Ekran+3">
+      <img src="https://via.placeholder.com/300x600?text=Ekran+4">
+    </div>
+
+    <footer>
+      © 2026 Boya Zeka · Tüm hakları saklıdır
+    </footer>
+
+  </div>
+
 </body>
 </html>
